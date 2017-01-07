@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
@@ -9,6 +8,7 @@ import Router from './Router';
 
 class App extends Component {
   componentWillMount() {
+    console.log(this);
     const config = {
       apiKey: 'AIzaSyDmOA1kmKUV78Zs89HCP9IvE4-uV4pByI8',
       authDomain: 'manager-react-native.firebaseapp.com',
