@@ -1,5 +1,12 @@
 {
   "extends": "airbnb",
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "react/jsx-filename-extension": 0,
+    "class-methods-use-this": 0,
+    "semi": 0
+  },
   "parserOptions":{
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
